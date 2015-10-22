@@ -1,5 +1,4 @@
 ###Goal of the script
-You should create one R script called run_analysis.R that does the following.  
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
@@ -25,13 +24,13 @@ First the script loads the plyr package and the raw data files.
 
 Then the test and train data are combined using rbind. In the case of activity and subject files, the data is also named appropriately.
 
-Then grep is used to get the subset of features that contains mean() and std().
+Then grep is used to get the subset of features that contains mean() and std().  
 Features containing meanFreq() are not included, since this is not a mean of the measurement, but rather a "Weighted average of the frequency components to obtain a mean frequency".
 
 The feature IDs (first column from features.txt) of the subset extracted in the previous step are used to create a subset of the measurement columns containing only mean() and std().  
 Then the feature names (second column from features.txt) are used to name all measurement columns.
 
-Then, subjects, activity and measurements are combined into one table with (cbind), in that order.
+Then, subjects, activity and measurements are combined into one table with (cbind).
 
 Activity is labeled by making it into a factor and naming the factor levels according to activity_labels.txt.
 
