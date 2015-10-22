@@ -1,11 +1,3 @@
-###Goal of the script
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names. 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-
 ###Guide to create the tidy data file
 1. Download the run_analysis.R file
 2. Place the run_analysis.R file within the raw data folder (so that it is in the same folder as features.txt etc.)
@@ -24,8 +16,15 @@ data <- read.table("tidy_data.txt", header = TRUE)
 View(data)
 ```
 
+###Goal of the script
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 ###How the tidy data file was created
-First the script loads the plyr package and the raw data files.
+First the script loads the plyr package and reads the raw data files.
 
 Then the test and train data are combined using rbind. In the case of activity and subject files, the data is also named appropriately.
 
