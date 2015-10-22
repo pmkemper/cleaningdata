@@ -77,7 +77,7 @@ The following text describes how the measurements were originally derived and ca
 >fBodyGyroMag  
 >fBodyGyroJerkMag  
 
-To create the tidy data set, the average of the mean and standard deviation of each of these signals were calculated for each subject and each activity. 
+To create the tidy data set, only the reported means and standard deviations of the above features were extracted from the raw data set. Next, the average of the mean and standard deviation of each of these signals were calculated for each subject and each activity. 
 
 This means that we get the following variables. Each variable contains the average of the relevant feature:
 
