@@ -1,12 +1,3 @@
----
-title: "Codebook template"
-author: "Philip Kemper"
-date: "10/22/2015"
-output:
-  html_document:
-    keep_md: yes
----
-
 ## Project Description
 In this project we take raw data from accelerometers from the Samsung Galaxy S smartphone measured during 6 activities in 30 participants, and create a tidy data file that only contains averages of the means and standard deviations of the features measured for each subject and activity.
 
