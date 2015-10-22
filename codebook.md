@@ -59,27 +59,27 @@ The following text describes how the measurements were originally derived and ca
 >These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
->tBodyAcc-XYZ
->tGravityAcc-XYZ
->tBodyAccJerk-XYZ
->tBodyGyro-XYZ
->tBodyGyroJerk-XYZ
->tBodyAccMag
->tGravityAccMag
->tBodyAccJerkMag
->tBodyGyroMag
->tBodyGyroJerkMag
->fBodyAcc-XYZ
->fBodyAccJerk-XYZ
->fBodyGyro-XYZ
->fBodyAccMag
->fBodyAccJerkMag
->fBodyGyroMag
->fBodyGyroJerkMag
+>tBodyAcc-XYZ  
+>tGravityAcc-XYZ  
+>tBodyAccJerk-XYZ  
+>tBodyGyro-XYZ  
+>tBodyGyroJerk-XYZ  
+>tBodyAccMag  
+>tGravityAccMag  
+>tBodyAccJerkMag  
+>tBodyGyroMag  
+>tBodyGyroJerkMag  
+>fBodyAcc-XYZ  
+>fBodyAccJerk-XYZ  
+>fBodyGyro-XYZ  
+>fBodyAccMag  
+>fBodyAccJerkMag  
+>fBodyGyroMag  
+>fBodyGyroJerkMag  
 
 To create the tidy data set, the average of the mean and standard deviation of each of these signals were calculated for each subject and each activity. 
 
-This results in the averages of the following columns:
+This means that we get the following variables. Each variable contains the average of the relevant feature:
 
  * tBodyAcc-mean()-X
  * tBodyAcc-mean()-Y
