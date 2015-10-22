@@ -11,7 +11,7 @@
 2. Place the run_analysis.R file within the raw data folder (so that it is in the same folder as features.txt etc.)
 3. Run run_analysis.R by using source() in your R environment:  
 ```
-source(“run_analysis.R”)
+source("run_analysis.R")
 ```
 
 You will now find tidy_data.txt in the same directory.
