@@ -148,6 +148,6 @@ This means that we get the following variables. Each variable contains the avera
  * fBodyBodyGyroJerkMag-mean()
  * fBodyBodyGyroJerkMag-std()
 
-##Sources
+##Additional sources used
 https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 https://datasciencespecialization.github.io/getclean/
