@@ -16,8 +16,10 @@ You will now find tidy_data.txt in the same directory.
 
 ###Guide to read the tidy data file
 To read tidy data set, save as tidy_data.txt in your working directory and then use:  
-    data <- read.table("tidy_data.txt", header = TRUE)  
-    View(data)
+```
+data <- read.table("tidy_data.txt", header = TRUE)  
+View(data)
+```
 
 ###How the tidy data file was created
 First the script loads the plyr package and the raw data files.
